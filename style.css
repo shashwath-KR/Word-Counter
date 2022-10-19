@@ -40,14 +40,14 @@
 #char {
     width: 110px;
     height: 40px;
-    background-color: chocolate;
+    background-color: rgb(95, 143, 233);
     margin: 10px;
     font-size: 19px;
 }
 #word {
     width: 110px;
     height: 40px;
-    background-color: rgb(91, 116, 33);
+    background-color: rgb(240, 228, 124);
     margin: 10px;
     font-size: 19px;
 }
