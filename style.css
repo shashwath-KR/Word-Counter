@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    background-color: black;
+}
+
+.content {
+   position: relative;
+   top: 70px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 60%;
+   height: 70%;  
+   margin: auto;
+   z-index: 10;
+   color: white;
+}
+
+.textarea {
+    margin-top: 10px;
+    font-size: 17px;
+    width: 75%;
+    resize: none;
+    height: 80%;
+    padding-left: 8px;
+    padding-top: 5px;
+    border: 2px solid black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.option {
+    display: flex;
+}
+#char {
+    width: 110px;
+    height: 40px;
+    background-color: chocolate;
+    margin: 10px;
+    font-size: 19px;
+}
+#word {
+    width: 110px;
+    height: 40px;
+    background-color: rgb(91, 116, 33);
+    margin: 10px;
+    font-size: 19px;
+}
